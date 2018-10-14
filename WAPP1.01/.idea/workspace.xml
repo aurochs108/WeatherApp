@@ -61,7 +61,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
+            <state relative-caret-position="213">
               <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -73,8 +73,8 @@
       <file leaf-file-name="CitiesChanger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/CitiesChanger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="408">
+              <caret line="24" column="66" lean-forward="true" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -82,8 +82,8 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="90" column="32" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
+            <state relative-caret-position="802">
+              <caret line="155" column="38" selection-start-line="155" selection-start-column="38" selection-end-line="155" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#buttonSwitchCity#0;class#Controller#0" />
@@ -96,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
+            <state relative-caret-position="518">
               <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
             </state>
           </provider>
@@ -105,16 +105,14 @@
       <file leaf-file-name="WeatherGetter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/WeatherGetter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="160" selection-start-line="160" selection-end-line="160" />
+            <state relative-caret-position="248">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
-                <element signature="method#getCityFromUserCheck#0;class#WeatherGetter#0" />
                 <element signature="method#setCityURL#0;class#WeatherGetter#0" />
                 <element signature="method#cityNameFromUser#0;class#WeatherGetter#0" />
                 <element signature="method#cityTemp#0;class#WeatherGetter#0" />
                 <element signature="method#cityPressure#0;class#WeatherGetter#0" />
                 <element signature="method#cityWind#0;class#WeatherGetter#0" />
-                <element signature="method#GetCityWindDirectionURL#0;class#WeatherGetter#0" />
               </folding>
             </state>
           </provider>
@@ -123,8 +121,8 @@
       <file leaf-file-name="TabOfCitiesInChoiceBox.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/TabOfCitiesInChoiceBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="374">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -132,8 +130,8 @@
       <file leaf-file-name="ControllerCityNotFoundWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/ControllerCityNotFoundWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="241">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,14 +166,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/WeatherGetter.java" />
         <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/sample/CitiesChanger.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/sample/ControllerCityNotFoundWindow.java" />
         <option value="$PROJECT_DIR$/src/sample/CityNotFoundWindow.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/CitiesChanger.java" />
         <option value="$PROJECT_DIR$/src/sample/TabOfCitiesInChoiceBox.java" />
+        <option value="$PROJECT_DIR$/src/sample/WeatherGetter.java" />
       </list>
     </option>
   </component>
@@ -189,7 +187,7 @@
     <packageJsonPaths />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1376" />
@@ -203,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,7 +232,6 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -362,14 +360,17 @@
       <workItem from="1537799035399" duration="656000" />
       <workItem from="1539510719233" duration="81000" />
       <workItem from="1539520431602" duration="17000" />
+      <workItem from="1539541774389" duration="43000" />
+      <workItem from="1539547990930" duration="1768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2270000" />
+    <option name="totallyTimeSpent" value="4081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -452,21 +453,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sample/WeatherGetter.java</url>
-          <line>161</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sample/WeatherGetter.java</url>
-          <line>145</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -752,45 +739,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/TabOfCitiesInChoiceBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
+        <state relative-caret-position="518">
           <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CitiesChanger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="90" column="32" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#buttonSwitchCity#0;class#Controller#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ControllerCityNotFoundWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
+        <state relative-caret-position="213">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -798,25 +764,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/TabOfCitiesInChoiceBox.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/ControllerCityNotFoundWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="241">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="155" column="38" selection-start-line="155" selection-start-column="38" selection-end-line="155" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#buttonSwitchCity#0;class#Controller#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/CitiesChanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="66" lean-forward="true" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/WeatherGetter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="160" selection-start-line="160" selection-end-line="160" />
+        <state relative-caret-position="248">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
-            <element signature="method#getCityFromUserCheck#0;class#WeatherGetter#0" />
             <element signature="method#setCityURL#0;class#WeatherGetter#0" />
             <element signature="method#cityNameFromUser#0;class#WeatherGetter#0" />
             <element signature="method#cityTemp#0;class#WeatherGetter#0" />
             <element signature="method#cityPressure#0;class#WeatherGetter#0" />
             <element signature="method#cityWind#0;class#WeatherGetter#0" />
-            <element signature="method#GetCityWindDirectionURL#0;class#WeatherGetter#0" />
           </folding>
         </state>
       </provider>

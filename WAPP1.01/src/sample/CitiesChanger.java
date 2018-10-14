@@ -4,9 +4,11 @@ package sample;
 public class CitiesChanger
 {
     static boolean cityChangeAction(WeatherGetter wg) {
-        //inicjalizacja URL
+
+        //init URL
         wg.setCityURL();
-        //sprawdzenie w jakim regionie jest miasto
+
+        //check in which region is city
         try {
             boolean checker = wg.getCityFromUserCheck();
             if(checker==true){
@@ -20,6 +22,7 @@ public class CitiesChanger
         }
     }
 
+    //*****************change name of city write by user to pretty name*****************//
     static String makeCityGreatLookName(String name)
     {
         String firstLetter;

@@ -3,6 +3,7 @@ package sample;
 import java.io.IOException;
 
 public class TabOfCitiesInChoiceBox {
+
     int numberOfCitiesInCityChoiceBox=2;
     CitiesChanger citiesChanger = new CitiesChanger();
     public String[] tabOfCitiesNames = new String[9];
@@ -20,18 +21,8 @@ public class TabOfCitiesInChoiceBox {
         numberOfCitiesInCityChoiceBox++;
         tabOfCitiesNames[numberOfCitiesInCityChoiceBox]=city;
     }
-    public void deleteCity(String city)
-    {
-        //ogarnijokienko
-        if(numberOfCitiesInCityChoiceBox<1) {
-            System.out.println("ogarnij okienko");
-        }
-        else {
-            tabOfCitiesNames[numberOfCitiesInCityChoiceBox] = null;
-            numberOfCitiesInCityChoiceBox--;
-        }
-    }
 
+    //*****************check the city write by user with tab of cities in choicebox*****************//
     public boolean compareCityWithTab(String city) throws IOException {
         city = citiesChanger.makeCityGreatLookName(city);
 

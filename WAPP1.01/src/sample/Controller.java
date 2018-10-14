@@ -16,36 +16,36 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
-    //atrybuty w aplikacji
+
+    //FXML controllers
     @FXML
-    private Label cityLabel;
+    private Label cityLabel;                    //label with city text
     @FXML
-    private ChoiceBox<String> cityChoiceBox;
+    private ChoiceBox<String> cityChoiceBox;    //choicebox with ciies
     @FXML
     private Button cityChoiceButton;
     @FXML
-    private Button cityAdd;
+    private Button cityAdd;                     //button to add city to choice box
     @FXML
-    private TextField cityAddTextField;
+    private TextField cityAddTextField;         //text field where user write city name
     @FXML
-    private Label cityTemperatureNow;
+    private Label cityTemperatureNow;           //label with temperature info text
     @FXML
-    private Label cityPressureNow;
+    private Label cityPressureNow;              //label with pressure info text
     @FXML
-    private Label cityWindNow;
+    private Label cityWindNow;                  //label with wind speed info text
     @FXML
-    private ImageView cityWeatherConditionImageNow;
+    private ImageView cityWeatherConditionImageNow; //image with weather condition
     @FXML
-    private ImageView imageWindDirection;
+    private ImageView imageWindDirection;       //image with wind direction
 
-    //zmienne
-    private String cityFromTextField;
-    private String cityNameObject = "katowice";
-    //licznik dodanych miast przez pole do wpisywania
-    int numbersOfAddedCities = 2;
+    //variables
+    private String cityFromTextField;           //var to contain city name from textfield
+    private String cityNameObject = "katowice"; //first default city in weather app
+    int numbersOfAddedCities = 2;               //counter of added cities, at the init in choicebox are 3 cities by default
     TabOfCitiesInChoiceBox tabOfCitiesInChoiceBox = new TabOfCitiesInChoiceBox();
 
-    //funkcje
+
     public void setCityNameObject(String cityNameObject) {
         this.cityNameObject = cityNameObject;
     }
@@ -54,17 +54,22 @@ public class Controller implements Initializable {
         return cityNameObject;
     }
 
+
+    //*****************init*****************//
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         cityChoiceBox.getItems().addAll("Katowice", "Wrocław", "Warszawa");
         cityChoiceBox.setValue(getCityNameObject());
         cityChoiceBox.setValue("Katowice");
-        //inicjacja obiektu zawierajacego tablice miast w choicebox
+
+        //init object contain tab of cities in choicebox
         TabOfCitiesInChoiceBox tabOfCitiesInChoiceBox = new TabOfCitiesInChoiceBox();
-        //inicjalizacja dla miasta początkowego czyli Katowic
+
+        //init of default city (Katowice)
         init();
     }
 
+    //*****************init new city object*****************//
     public void init() {
         WeatherGetter katowice = new WeatherGetter(getCityNameObject());
         CitiesChanger.cityChangeAction(katowice);
@@ -74,24 +79,27 @@ public class Controller implements Initializable {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         //labelsNow
         try {
             cityTemperatureNow.setText(katowice.cityTemp());
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         try {
             cityPressureNow.setText(katowice.cityPressure());
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         try {
             cityWindNow.setText(katowice.cityWind());
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        //imagesNow
+        //images
         FileInputStream input = null;
         try {
             input = new FileInputStream(katowice.setWeatherConditionImage());
@@ -100,6 +108,7 @@ public class Controller implements Initializable {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         input = null;
         try {
             input = new FileInputStream(katowice.GetCityWindDirectionURL());
@@ -143,6 +152,8 @@ public class Controller implements Initializable {
                 ControllerCityNotFoundWindow controllerCityNotFoundWindow = new ControllerCityNotFoundWindow();
                 controllerCityNotFoundWindow.WindowInfoStart();
         }
+
+        //clean textfield after adding city
         cityAddTextField.setText("");
 
 
