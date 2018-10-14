@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label fx:id="cityLabel" layoutX="28.0" prefHeight="70.0" prefWidth="425.0" text="City">
+         <font>
+            <Font size="48.0" />
+         </font></Label>
+      <ChoiceBox fx:id="cityChoiceBox" layoutX="354.0" layoutY="78.0" prefWidth="150.0" />
+      <Button fx:id="cityChoiceButton" layoutX="504.0" layoutY="78.0" mnemonicParsing="false" onAction="#buttonSwitchCity" text="Przełącz" />
+      <TextField fx:id="cityAddTextField" layoutX="355.0" layoutY="113.0" promptText="Miasto" />
+      <Button fx:id="cityAdd" layoutX="504.0" layoutY="111.0" mnemonicParsing="false" onAction="#buttonAddCity" text="Dodaj" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-18.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="cityTemperatureNow" layoutX="28.0" layoutY="78.0" text="TemperatureNow" />
+      <Label fx:id="cityPressureNow" layoutX="30.0" layoutY="101.0" text="PressureNow" />
+      <Label fx:id="cityWindNow" layoutX="30.0" layoutY="122.0" text="Siła Wiatru 10m/s" />
+      <ImageView fx:id="cityWeatherConditionImageNow" fitHeight="64.0" fitWidth="64.0" layoutX="24.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/WeatherConditionImages/sunny.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="30.0" layoutY="57.0" text="Dziś" />
+      <ImageView fx:id="imageWindDirection" fitHeight="60.0" fitWidth="60.0" layoutX="115.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/WindArrows/All.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
