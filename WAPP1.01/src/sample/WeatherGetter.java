@@ -29,7 +29,7 @@ public class WeatherGetter {
 
 
 
-    //*****************method checked if the city is real and in what region it is*****************//
+    //*****************method checked if the city is real and in which region it is*****************//
     public boolean getCityFromUserCheck() throws Exception {
 
         //change to lower signs
